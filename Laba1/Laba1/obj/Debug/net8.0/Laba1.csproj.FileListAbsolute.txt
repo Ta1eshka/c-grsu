@@ -1,0 +1,15 @@
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\bin\Debug\net8.0\Laba1.exe
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\bin\Debug\net8.0\Laba1.deps.json
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\bin\Debug\net8.0\Laba1.runtimeconfig.json
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\bin\Debug\net8.0\Laba1.dll
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\bin\Debug\net8.0\Laba1.pdb
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.GeneratedMSBuildEditorConfig.editorconfig
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.AssemblyInfoInputs.cache
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.AssemblyInfo.cs
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.csproj.CoreCompileInputs.cache
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.sourcelink.json
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.dll
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\refint\Laba1.dll
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.pdb
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\Laba1.genruntimeconfig.cache
+D:\documents\repos\c#\c-grsu\Laba1\Laba1\obj\Debug\net8.0\ref\Laba1.dll
