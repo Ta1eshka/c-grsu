@@ -41,59 +41,102 @@ namespace GeneticSearch
                     });
                 }
             }
-        }
 
-        static string RLDecoding(string amino_acids)
-        {
-            if (string.IsNullOrEmpty(amino_acids)) return "";
-            StringBuilder sb = new StringBuilder();
-
-            for (int i = 0; i < amino_acids.Length; i++)
+            using (StreamWriter writer = new StreamWriter(outFile, false, Encoding.UTF8))
             {
-                if (char.IsDigit(amino_acids[i]))
+                writer.WriteLine("Шмат Кирилл");
+                writer.WriteLine("Genetic Searching");
+                string separator = new string('-', 74);
+                writer.WriteLine(separator);
+
+                int opNumber = 1;
+
+                foreach (string line in File.ReadLines(cmdFile))
                 {
-                    int count = amino_acids[i] - '0';
-                    i++;
-                    if (i < amino_acids.Length)
+                    if (string.IsNullOrWhiteSpace(line)) continue;
+
+                    string[] parts = line.Split('\t');
+                    string command = parts[0].Trim().ToLower();
+                    string opNumStr = opNumber.ToString("D3");
+
+                    if (command == "search" && parts.Length >= 2)
                     {
-                        char c = amino_acids[i];
-                        for (int j = 0; j < count; j++) sb.Append(c);
+                        string rawParam = parts[1].Trim();
+                        string searchSeq = RLDecoding(rawParam);
+
+                        writer.WriteLine($"{opNumStr}\t{command}\t{rawParam}");
+                        writer.WriteLine("organism\tprotein");
+
+                        bool found = false;
+                        foreach (var data in sequences)
+                        {
+                            if (data.amino_acids.Contains(searchSeq))
+                            {
+                                writer.WriteLine($"{data.organism}\t{data.protein}");
+                                found = true;
+                            }
+                        }
+
+                        if (!found)
+                        {
+                            writer.WriteLine("NOT FOUND");
+                        }
                     }
                 }
-                else
-                {
-                    sb.Append(amino_acids[i]);
-                }
             }
-            return sb.ToString();
-        }
 
-        static string RLEncoding(string amino_acids)
-        {
-            if (string.IsNullOrEmpty(amino_acids)) return "";
-            StringBuilder sb = new StringBuilder();
-
-            int count = 1;
-            for (int i = 1; i <= amino_acids.Length; i++)
+            static string RLDecoding(string amino_acids)
             {
-                if (i < amino_acids.Length && amino_acids[i] == amino_acids[i - 1] && count < 9)
+                if (string.IsNullOrEmpty(amino_acids)) return "";
+                StringBuilder sb = new StringBuilder();
+
+                for (int i = 0; i < amino_acids.Length; i++)
                 {
-                    count++;
-                }
-                else
-                {
-                    if (count >= 3)
+                    if (char.IsDigit(amino_acids[i]))
                     {
-                        sb.Append(count).Append(amino_acids[i - 1]);
+                        int count = amino_acids[i] - '0';
+                        i++;
+                        if (i < amino_acids.Length)
+                        {
+                            char c = amino_acids[i];
+                            for (int j = 0; j < count; j++) sb.Append(c);
+                        }
                     }
                     else
                     {
-                        for (int j = 0; j < count; j++) sb.Append(amino_acids[i - 1]);
+                        sb.Append(amino_acids[i]);
                     }
-                    count = 1;
                 }
+                return sb.ToString();
             }
-            return sb.ToString();
+
+            static string RLEncoding(string amino_acids)
+            {
+                if (string.IsNullOrEmpty(amino_acids)) return "";
+                StringBuilder sb = new StringBuilder();
+
+                int count = 1;
+                for (int i = 1; i <= amino_acids.Length; i++)
+                {
+                    if (i < amino_acids.Length && amino_acids[i] == amino_acids[i - 1] && count < 9)
+                    {
+                        count++;
+                    }
+                    else
+                    {
+                        if (count >= 3)
+                        {
+                            sb.Append(count).Append(amino_acids[i - 1]);
+                        }
+                        else
+                        {
+                            for (int j = 0; j < count; j++) sb.Append(amino_acids[i - 1]);
+                        }
+                        count = 1;
+                    }
+                }
+                return sb.ToString();
+            }
         }
     }
 }
