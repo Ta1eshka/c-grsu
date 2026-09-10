@@ -122,6 +122,49 @@ namespace GeneticSearch
                             writer.WriteLine(diffCount);
                         }
                     }
+                    else if (command == "mode" && parts.Length >= 2)
+                    {
+                        string pName = parts[1].Trim();
+
+                        writer.WriteLine($"{opNumStr}\t{command}\t{pName}");
+                        writer.WriteLine("amino-acid occurs:");
+
+                        int index = sequences.FindIndex(s => s.protein == pName);
+
+                        if (index == -1)
+                        {
+                            writer.WriteLine($"MISSING: {pName}");
+                        }
+                        else
+                        {
+                            string seq = sequences[index].amino_acids;
+
+                            Dictionary<char, int> counts = new Dictionary<char, int>();
+                            foreach (char c in seq)
+                            {
+                                if (counts.ContainsKey(c)) counts[c]++;
+                                else counts[c] = 1;
+                            }
+
+                            int maxCount = 0;
+                            char bestChar = 'Z';
+
+                            foreach (var kvp in counts)
+                            {
+                                if (kvp.Value > maxCount)
+                                {
+                                    maxCount = kvp.Value;
+                                    bestChar = kvp.Key;
+                                }
+                                else if (kvp.Value == maxCount && kvp.Key < bestChar)
+                                {
+                                    bestChar = kvp.Key;
+                                }
+                            }
+
+                            writer.WriteLine($"{bestChar}\t{maxCount}");
+                        }
+                    }
                 }
             }
 
