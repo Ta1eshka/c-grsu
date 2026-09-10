@@ -82,6 +82,46 @@ namespace GeneticSearch
                             writer.WriteLine("NOT FOUND");
                         }
                     }
+                    else if (command == "diff" && parts.Length >= 3)
+                    {
+                        string p1Name = parts[1].Trim();
+                        string p2Name = parts[2].Trim();
+
+                        writer.WriteLine($"{opNumStr}\t{command}\t{p1Name}\t{p2Name}");
+                        writer.WriteLine("amino-acids difference:");
+
+                        int index1 = sequences.FindIndex(s => s.protein == p1Name);
+                        int index2 = sequences.FindIndex(s => s.protein == p2Name);
+
+                        if (index1 == -1 && index2 == -1)
+                        {
+                            writer.WriteLine($"MISSING: {p1Name}, {p2Name}");
+                        }
+                        else if (index1 == -1)
+                        {
+                            writer.WriteLine($"MISSING: {p1Name}");
+                        }
+                        else if (index2 == -1)
+                        {
+                            writer.WriteLine($"MISSING: {p2Name}");
+                        }
+                        else
+                        {
+                            string seq1 = sequences[index1].amino_acids;
+                            string seq2 = sequences[index2].amino_acids;
+
+                            int diffCount = 0;
+                            int minLen = Math.Min(seq1.Length, seq2.Length);
+
+                            for (int i = 0; i < minLen; i++)
+                            {
+                                if (seq1[i] != seq2[i]) diffCount++;
+                            }
+                            diffCount += Math.Abs(seq1.Length - seq2.Length);
+
+                            writer.WriteLine(diffCount);
+                        }
+                    }
                 }
             }
 
