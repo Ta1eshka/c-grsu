@@ -1,27 +1,27 @@
 ﻿Шмат Кирилл
 Genetic Searching
 --------------------------------------------------------------------------
-001	diff	PREDICTED: similar to double homeobox	metallothionein 2A
-amino-acids difference:
-105
---------------------------------------------------------------------------
-002	search	VLLYISSVYVLPRYN
-organism	protein
-Fission Yeast Fungus	ATPase 8 Schizosaccharomyces pombe
---------------------------------------------------------------------------
-003	mode	C-FLIP AMPA glutamate
+001	mode	PREDICTED: similar to double homeobox
 amino-acid occurs:
-K	7
+R	17
 --------------------------------------------------------------------------
-004	diff	Cecropin	Cecropin
-amino-acids difference:
-0
---------------------------------------------------------------------------
-005	search	LIVM
+002	search	LKSQ
 organism	protein
-Budding (baking) Yeast	Putative protein of Saccharomyces cerevisiae
+Homo sapiens (Human)	TRAF interacting protein TANK isoform b
 --------------------------------------------------------------------------
-006	mode	metallothionein 2A
+003	diff	C-FLIP AMPA glutamate	6.8 kDa mitochondrial proteolipid
+amino-acids difference:
+58
+--------------------------------------------------------------------------
+004	mode	Lsm3 protein
 amino-acid occurs:
-C	20
+E	11
+--------------------------------------------------------------------------
+005	diff	Lsm3 protein	Drosophila melanogaster [Fragment]
+amino-acids difference:
+156
+--------------------------------------------------------------------------
+006	search	TPRFGKTFDA
+organism	protein
+Homo sapiens (Human)	pituitary tumor-transforming protein 1
 --------------------------------------------------------------------------
