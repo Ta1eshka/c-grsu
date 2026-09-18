@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|solutionrelative:laba2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba2\\laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|solutionrelative:laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba2\\laba2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|solutionrelative:laba2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba2\\laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5204FFFD-F380-43CC-A3F2-1BA0D706A47B}|Laba2\\Laba2.csproj|solutionrelative:laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba2\\Laba2\\Program.cs",
               "RelativeDocumentMoniker": "Laba2\\Program.cs",
               "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba2\\Laba2\\Program.cs",
               "RelativeToolTip": "Laba2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T12:08:02.763Z",
               "EditorCaption": ""
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "Laba2\\Game.cs",
               "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba2\\Laba2\\Game.cs",
               "RelativeToolTip": "Laba2\\Game.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAADwv1YAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-18T13:42:23.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba2\\Laba2\\Player.cs",
               "RelativeDocumentMoniker": "Laba2\\Player.cs",
