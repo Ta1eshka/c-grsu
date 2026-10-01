@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|D:\\documents\\repos\\c#\\c-grsu\\Laba3\\laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\stopwords_ru.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|D:\\documents\\repos\\c#\\c-grsu\\Laba3\\laba3\\stopwords_ru.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\stopwords_ru.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\stopwords_en.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|D:\\documents\\repos\\c#\\c-grsu\\Laba3\\laba3\\stopwords_en.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\stopwords_en.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "TextParser.cs",
+              "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\TextParser.cs",
+              "RelativeDocumentMoniker": "Laba3\\TextParser.cs",
+              "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\TextParser.cs",
+              "RelativeToolTip": "Laba3\\TextParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T11:21:29.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "stopwords_ru.txt",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\stopwords_ru.txt",
               "RelativeDocumentMoniker": "Laba3\\stopwords_ru.txt",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "Laba3\\stopwords_ru.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-01T11:07:18.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T11:07:18.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "stopwords_en.txt",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\stopwords_en.txt",
               "RelativeDocumentMoniker": "Laba3\\stopwords_en.txt",
@@ -51,25 +67,24 @@
               "RelativeToolTip": "Laba3\\stopwords_en.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-01T11:07:17.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T11:07:17.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Text.cs",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\Text.cs",
               "RelativeDocumentMoniker": "Laba3\\Text.cs",
               "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\Text.cs",
               "RelativeToolTip": "Laba3\\Text.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:07:12.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\Program.cs",
               "RelativeDocumentMoniker": "Laba3\\Program.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "Laba3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T11:05:40.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T11:05:40.149Z"
             }
           ]
         }
