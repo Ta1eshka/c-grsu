@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\textprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba3\\laba3\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|D:\\documents\\repos\\c#\\c-grsu\\Laba3\\laba3\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92B7D4C4-1F03-4CA8-A348-72CDB2B9FDA2}|Laba3\\Laba3.csproj|solutionrelative:laba3\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Laba3\\TextProcessor.cs",
               "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba3\\Laba3\\TextProcessor.cs",
               "RelativeToolTip": "Laba3\\TextProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wCAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:34:07.963Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Laba3\\TextParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T11:21:29.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T11:21:29.522Z"
             },
             {
               "$type": "Document",
