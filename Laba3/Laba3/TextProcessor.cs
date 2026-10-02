@@ -78,4 +78,14 @@ public class TextProcessor
                 item is Word word && stopWords.Contains(word.Value.ToLower()));
         }
     }
+
+    // 7. Экспорт в XML
+    public void ExportToXml(string filePath)
+    {
+        var serializer = new XmlSerializer(typeof(Text));
+        using (var writer = new StreamWriter(filePath))
+        {
+            serializer.Serialize(writer, TextData);
+        }
+    }
 }

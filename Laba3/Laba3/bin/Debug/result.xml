@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sentence>
+    <word>morning</word>
+    <punctuation>,</punctuation>
+    <word>теплым</word>
+    <punctuation>.</punctuation>
+  </sentence>
+  <sentence>
+    <word>молчишь</word>
+    <punctuation>?</punctuation>
+  </sentence>
+  <sentence>
+    <word>cat</word>
+    <punctuation>,</punctuation>
+    <word>верный</word>
+    <word>пес</word>
+    <word>охраняет</word>
+    <word>дом</word>
+    <punctuation>.</punctuation>
+  </sentence>
+</text>

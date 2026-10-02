@@ -1,0 +1,10 @@
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\input.txt
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\stopwords_en.txt
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\stopwords_ru.txt
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\Laba3.exe.config
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\Laba3.exe
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\bin\Debug\Laba3.pdb
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.csproj.AssemblyReference.cache
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.csproj.CoreCompileInputs.cache
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.exe
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.pdb
