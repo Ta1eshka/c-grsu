@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <sentence>
+    <word>It</word>
+    <word>is</word>
+    <word>a</word>
+    <word>cold</word>
     <word>morning</word>
     <punctuation>,</punctuation>
+    <word>но</word>
+    <word>день</word>
+    <word>будет</word>
     <word>теплым</word>
     <punctuation>.</punctuation>
   </sentence>
   <sentence>
+    <word>What</word>
+    <word>do</word>
+    <word>you</word>
+    <word>think</word>
+    <word>about</word>
+    <word>this</word>
+    <word>и</word>
+    <word>почему</word>
+    <word>ты</word>
     <word>молчишь</word>
     <punctuation>?</punctuation>
   </sentence>
   <sentence>
+    <word>The</word>
     <word>cat</word>
+    <word>спит</word>
+    <word>on</word>
+    <word>the</word>
+    <word>sofa</word>
     <punctuation>,</punctuation>
+    <word>а</word>
     <word>верный</word>
     <word>пес</word>
     <word>охраняет</word>

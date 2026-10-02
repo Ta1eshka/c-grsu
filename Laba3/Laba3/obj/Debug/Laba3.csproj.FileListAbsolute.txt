@@ -8,3 +8,4 @@ D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.csproj.AssemblyReferenc
 D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.csproj.CoreCompileInputs.cache
 D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.exe
 D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.pdb
+D:\documents\repos\c#\c-grsu\Laba3\Laba3\obj\Debug\Laba3.exe.config
