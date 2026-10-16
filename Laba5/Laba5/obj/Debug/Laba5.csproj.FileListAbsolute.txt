@@ -1,0 +1,7 @@
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\bin\Debug\Laba5.exe.config
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\bin\Debug\Laba5.exe
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\bin\Debug\Laba5.pdb
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\obj\Debug\Laba5.csproj.AssemblyReference.cache
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\obj\Debug\Laba5.csproj.CoreCompileInputs.cache
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\obj\Debug\Laba5.exe
+D:\documents\repos\c#\c-grsu\Laba5\Laba5\obj\Debug\Laba5.pdb
