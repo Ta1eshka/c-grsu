@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba5\\laba5\\models\\sweets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|solutionrelative:laba5\\models\\sweets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba5\\laba5\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|solutionrelative:laba5\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|d:\\documents\\repos\\c#\\c-grsu\\laba5\\laba5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE76445A-9A09-43F1-B75B-CA95018CFE2F}|Laba5\\Laba5.csproj|solutionrelative:laba5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sweets.cs",
+              "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Models\\Sweets.cs",
+              "RelativeDocumentMoniker": "Laba5\\Models\\Sweets.cs",
+              "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Models\\Sweets.cs",
+              "RelativeToolTip": "Laba5\\Models\\Sweets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T11:20:43.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sweet.cs",
+              "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Models\\Sweet.cs",
+              "RelativeDocumentMoniker": "Laba5\\Models\\Sweet.cs",
+              "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Models\\Sweet.cs",
+              "RelativeToolTip": "Laba5\\Models\\Sweet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T11:20:20.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Program.cs",
               "RelativeDocumentMoniker": "Laba5\\Program.cs",
               "ToolTip": "D:\\documents\\repos\\c#\\c-grsu\\Laba5\\Laba5\\Program.cs",
               "RelativeToolTip": "Laba5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T11:13:45.124Z",
               "EditorCaption": ""
