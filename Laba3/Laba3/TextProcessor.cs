@@ -88,4 +88,37 @@ public class TextProcessor
             serializer.Serialize(writer, TextData);
         }
     }
+
+    public void PrintConcordance()
+    {
+        var concordance = new Dictionary<string, ConcordanceEntry>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var sentence in TextData.Sentences)
+        {
+            foreach (var item in sentence.Items.OfType<Word>())
+            {
+                string word = item.Value.ToLower();
+
+                if (!concordance.ContainsKey(word))
+                {
+                    concordance[word] = new ConcordanceEntry();
+                }
+
+                concordance[word].Count++;
+                concordance[word].LineNumbers.Add(item.LineNumber);
+            }
+        }
+
+        var sortedWords = new SortedSet<string>(concordance.Keys, StringComparer.Ordinal);
+
+        Console.WriteLine("Конкорданс текста:");
+        foreach (var word in sortedWords)
+        {
+            var entry = concordance[word];
+            string paddedWord = word.PadRight(35, '.');
+            string lines = string.Join(" ", entry.LineNumbers);
+
+            Console.WriteLine($"{paddedWord}{entry.Count}: {lines}");
+        }
+    }
 }

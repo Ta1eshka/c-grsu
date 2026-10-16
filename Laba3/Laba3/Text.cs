@@ -2,6 +2,12 @@
 using System.Linq;
 using System.Xml.Serialization;
 
+public class ConcordanceEntry
+{
+    public int Count { get; set; }
+    public SortedSet<int> LineNumbers { get; set; } = new SortedSet<int>();
+}
+
 [XmlRoot("text")]
 public class Text
 {
@@ -26,6 +32,9 @@ public abstract class SentenceItem
 {
     [XmlText]
     public string Value { get; set; }
+
+    [XmlIgnore]
+    public int LineNumber { get; set; }
 }
 
 public class Word : SentenceItem { }

@@ -36,6 +36,8 @@ class Program
         var processor6 = new TextProcessor(text6);
         Text text7 = TextParser.Parse(rawText);
         var processor7 = new TextProcessor(text7);
+        Text text8 = TextParser.Parse(rawText);
+        var processor8 = new TextProcessor(text8);
 
 
         processor1.PrintSentencesByWordCount();
@@ -75,5 +77,7 @@ class Program
 
         processor7.ExportToXml("result.xml");
         Console.WriteLine("\nУспешно экспортировано в result.xml");
+
+        processor8.PrintConcordance();
     }
 }

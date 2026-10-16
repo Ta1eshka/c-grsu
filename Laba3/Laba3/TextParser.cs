@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
 
 public static class TextParser
 {
@@ -16,13 +17,16 @@ public static class TextParser
 
             foreach (Match tokenMatch in tokenMatches)
             {
+                int absoluteIndex = sentenceMatch.Index + tokenMatch.Index;
+                int lineNumber = 1 + rawText.Substring(0, absoluteIndex).Count(c => c == '\n');
+
                 if (Regex.IsMatch(tokenMatch.Value, @"^[a-zA-Zа-яА-ЯёЁ0-9'-]+$"))
                 {
-                    sentence.Items.Add(new Word { Value = tokenMatch.Value });
+                    sentence.Items.Add(new Word { Value = tokenMatch.Value, LineNumber = lineNumber });
                 }
                 else
                 {
-                    sentence.Items.Add(new Punctuation { Value = tokenMatch.Value });
+                    sentence.Items.Add(new Punctuation { Value = tokenMatch.Value, LineNumber = lineNumber });
                 }
             }
 
